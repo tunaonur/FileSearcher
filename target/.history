@@ -1,0 +1,13 @@
+console
+eclipse
+~test
+eclipse
+~test
+console
+~test
+run "txt" "/Users" "true" "foo"
+run "json" "/Users" "true" "foo"
+run "txt" "/Users" "true" "foo"
+run "txt" "/Users/PCcik/Desktop" "true" "foo"
+run "txt" "/Users/PCcik/Desktop" "true" "foo" results.out
+doc

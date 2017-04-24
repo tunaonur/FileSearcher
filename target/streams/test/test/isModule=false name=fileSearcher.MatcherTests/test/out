@@ -1,0 +1,16 @@
+[0m[[0minfo[0m] [0m[32mMatcherTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mMatcher that is passed a file matching the filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a list with that file name[0m[0m
+[0m[[0minfo[0m] [0m[32mMatcher using a directory containing one file matching the filter[0m[0m
+[0m[[0minfo[0m] [0m[31m- should return a list with that file name *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  List() did not equal List((/Users/PCcik/Dev/ScalaDev/project/readme.json,None)) (MatcherTests.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[32mMatcher with subfolder checking matching a root location with subtree files matching the filter[0m[0m
+[0m[[0minfo[0m] [0m[31m- should return a list with that file name *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  List() did not equal List((/Users/PCcik/Dev/ScalaDev/project/sub/notes.txt,None), (/Users/PCcik/Dev/ScalaDev/project/readme.json,None)) (MatcherTests.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[32mMatcher that is not passed a root file location[0m[0m
+[0m[[0minfo[0m] [0m[32m- should use the current location[0m[0m
+[0m[[0minfo[0m] [0m[32mMatcher given a path that has one file that mactches the file filter and content filter[0m[0m
+[0m[[0minfo[0m] [0m[31m- should return a list with that file name *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  List() did not equal List((/Users/PCcik/Dev/ScalaDev/project/pluralsight.data,Some(3))) (MatcherTests.scala:54)[0m[0m
+[0m[[0minfo[0m] [0m[32mMatcher given a path that has no file that mactches the file filter and content filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return an empty list[0m[0m
